@@ -1,0 +1,57 @@
+/* cards */
+
+.m-3 {
+    box-shadow: 3px 3px 10px black;
+    width: 300px;
+    transition: width 1s;
+    opacity: 0.8;
+    transition: all 1s ease;
+}
+
+.m-3:hover {
+    box-shadow: 10px 10px 20px black;
+    transform: scale(1.05);
+    opacity: 1;
+    transition: all 1s ease;
+}
+
+
+/*LEROM */
+
+.boxes {
+    text-align: center;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+#icon {
+    font-size: 40px;
+    text-align: center !important;
+}
+
+.box {
+    padding: 15px;
+    border: 1px solid #ccc;
+    background: linear-gradient(white, #373A48);
+}
+
+
+/* footer */
+
+#myFooter {
+    background-color: #373a48;
+    color: white;
+    width: 100%;
+}
+
+#myFooter .footer-copyright {
+    background-color: #383737;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
